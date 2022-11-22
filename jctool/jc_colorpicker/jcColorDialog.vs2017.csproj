@@ -49,8 +49,7 @@
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
     <ConfigurationOverrideFile />
-    <DefineConstants>
-    </DefineConstants>
+    <DefineConstants>DEBUG</DefineConstants>
     <DocumentationFile />
     <DebugSymbols>false</DebugSymbols>
     <FileAlignment>4096</FileAlignment>

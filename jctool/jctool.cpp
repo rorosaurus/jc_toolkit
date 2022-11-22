@@ -2930,6 +2930,11 @@ int device_connection(){
             handle_ok = 3;
             return handle_ok;
         }
+        // N64 Controller
+        if (handle = hid_open(0x57e, 0x2019, nullptr)) {
+            handle_ok = 4;
+            return handle_ok;
+        }
         // Nothing found
         else {
             return 0;
